@@ -1,0 +1,21 @@
+.wrapper, html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+}
+
+
+#image {
+    background-color: green;
+    width: 37%;
+    height: 100%;
+}
+
+#form {
+    background-color: yellow;
+    width: 63%;
+    height: 100%;
+}
