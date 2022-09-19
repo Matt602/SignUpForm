@@ -7,11 +7,19 @@ body {
     display: flex;
 }
 
+@font-face {
+    font-family: norse;
+    src: url('Norse-Bold.otf');
+}
 
 #image {
-    background-color: green;
+    background-image: url(images/background.jpg);
+    display: flex;
+    flex-direction: column;
     width: 37%;
     height: 100%;
+    background-size: cover;
+    
 }
 
 #form {
@@ -19,3 +27,26 @@ body {
     width: 63%;
     height: 100%;
 }
+
+.card {
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-top: 40%;
+    height: 15%;
+    
+    font-family: norse;
+
+}
+
+.card-content {
+    color: white;
+    font-size: 10em;
+    text-align: center;
+}
+
+.credit {
+    color: white;
+    margin-top: auto;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
