@@ -22,11 +22,6 @@ body {
     
 }
 
-#form {
-    background-color: yellow;
-    width: 63%;
-    height: 100%;
-}
 
 .card {
     background-color: rgba(0, 0, 0, 0.6);
@@ -50,3 +45,16 @@ body {
     margin-bottom: 3%;
 }
 
+#form {
+    background-color: white;
+    width: 63%;
+    height: 100%;
+}
+
+.form-intro {
+    font-size: 18px;
+    font-weight: bold; 
+    padding: 0px 90px 0px 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 30%;
+}
