@@ -26,34 +26,32 @@
         </div>
 
         <div id="form">
-            <form action="" method="POST">
-                <div class="from-header">Let's do this!</div>
-                <br>
-                <label for="first_name">FIRST NAME</label>
-                <input type="text" id="first_name" name="first_name">
-
-                <label for="last_name">LAST NAME</label>
-                <input type="text" id="last_name" name="last_name">
-
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email">
-
-                <label for="phone_number">Phone</label>
-                <input type="tel" id="phone_number" name="phone_number">
-
-                <label for="password">Password</label>
-                <input type="password" id="password" name="password">
-
-                <label for="confirm_pass">Confirm Password</label>
-                <input type="password" id="confirm_pass" name="consfirm_pass">
+            <form action="http://httpbin.org/post" method="POST">
+                <div class="form-itself">
+                    <div class="from-header">Let's do this!</div>
+                    <br>
+                    <label for="first_name">FIRST NAME</label>
+                    <input type="text" id="first_name" name="first_name">
+                    <label for="last_name">LAST NAME</label>
+                    <input type="text" id="last_name" name="last_name">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                    <label for="phone_number">Phone</label>
+                    <input type="tel" id="phone_number" name="phone_number">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password">
+                    <label for="confirm_pass">Confirm Password</label>
+                    <input type="password" id="confirm_pass" name="confirm_pass">
+                </div>
             
+                <div id="bottom-section">
+                    <button type="submit" class="create">Create Account</button>
+                    <div class="already">Already have an account? Log in</div>
+                </div>
             </form>
         </div>
 
-        <div id="bottom-section">
-            <button type="submit" class="create">Create Account</button>
-            <div class="already">Already have an account? Log in</div>
-        </div>
+        
         
     </div>
     

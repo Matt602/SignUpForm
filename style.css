@@ -61,7 +61,7 @@ body {
     margin-bottom: 50px;
 }
 
-#form {
+.form-itself {
     padding: 10px 50px 20px 20px;
     box-shadow: 4px 4px rgb(211, 207, 207);
     margin-bottom: 20px;
