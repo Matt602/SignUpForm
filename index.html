@@ -11,7 +11,8 @@
 
     <div id="image">
         <div class="card">
-            <div class="card-content"><img src="images/odin-lined.png">ODIN</div>
+            <img class="card-content" src="images/odin-lined.png"> 
+            <div class="caption">ODIN</div>
         </div>
         <div class="credit">Photo by <a href="https://unsplash.com/@haliewestphoto" style="color:white">Halie West</a> on <a href="https://unsplash.com/"  style="color:white">Unsplash</a></div>
     </div>
@@ -35,31 +36,31 @@
                         <tr>
                             <td>
                                 <label for="first_name">FIRST NAME</label>
-                                <input type="text" id="first_name" name="first_name">
+                                <input type="text" id="first_name" name="first_name" required>
                             </td>
                             <td>
                                 <label for="last_name">LAST NAME</label>
-                                <input type="text" id="last_name" name="last_name">
+                                <input type="text" id="last_name" name="last_name" required>
                             </td>
                         </tr>
                         <tr>
                             <td>
                                 <label for="email">EMAIL</label>
-                                <input type="email" id="email" name="email">
+                                <input type="email" id="email" name="email" required>
                             </td>
                             <td>
                                 <label for="phone_number">PHONE</label>
-                                <input type="tel" id="phone_number" name="phone_number">
+                                <input type="tel" id="phone_number" name="phone_number" required>
                             </td>
                         </tr>
                         <tr>
                             <td>
                                 <label for="password">PASSWORD</label>
-                                <input type="password" id="password" name="password">
+                                <input type="password" id="password" name="password" minlength="6" maxlength="14" required>
                             </td>
                             <td>
                                 <label for="confirm_pass">CONFIRM PASSWORD</label>
-                                <input type="password" id="confirm_pass" name="confirm_pass">
+                                <input type="password" id="confirm_pass" name="confirm_pass" minlength="6" maxlength="14" required>
                             </td>
                         </tr>
                     </table>
@@ -75,6 +76,5 @@
         
         
     </div>
-    
 </body>
 </html>
